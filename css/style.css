@@ -1,7 +1,41 @@
 body{
     background:url("../images/bkimage.jpg"); 
-    background-repeat: repeat;
-    background-size: 25%;    
+    background-repeat: no-repeat;
+    background-size: 25%; 
+    background-attachment: fixed;
+    background-position: center;   
+}
+
+.container {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(8, 1fr);
+
+
+}
+
+.head {
+  grid-column: 1/5;
+
+}
+
+.position {
+    
+
+}
+
+.aboutme {
+  
+
+}
+
+.hobbies {
+   
+}
+
+.footer {
+    display: flex;
+
 }
 
 h1 {
@@ -11,4 +45,8 @@ h1 {
 
 p {
     background-color: blueviolet;
+}
+
+h2 {
+    background-color: aqua;
 }
