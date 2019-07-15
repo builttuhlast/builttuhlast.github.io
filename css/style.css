@@ -3,41 +3,60 @@ body{
     background-repeat: no-repeat;
     background-size: 25%; 
     background-attachment: fixed;
-    background-position: center;   
+    background-position: left top;   
 }
 
 .container {
+    
    display: grid;
    grid-template-columns: repeat(4, 1fr);
    grid-template-rows: repeat(8, 1fr);
-
-
 }
 
 .head {
-  grid-column: 1/5;
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid rgb(48, 14, 201);
+    padding: 10px;
 
 }
 
 .position {
-    background-color: green,   
+    background-color: green;
+    text-align: center;
+    
+
 }
 
-.aboutme {
-  background-color: coral,
+.aboutme, .hobbies  {
+  /* background-color: coral;
+  justify-content: center;
+  display: flex;
+  float: left; */
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-position: center;
+  background-color: coral;
 }
 
-.hobbies {
-    background-color: brown,
-}
+/* .hobbies {
+    background-color: brown;
+    background-position: center;
+} */
 
 .footer {
-    display: flex;
+    /* display: flex; */
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
 
 }
 
 h1 {
-    background: orangered;
+    
     float: right;
 }
 
