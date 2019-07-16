@@ -1,53 +1,50 @@
+/* <style>
+@media(min-width:768px){
+    
+} */
+
 body{
     background:url("../images/bkimage.jpg"); 
     background-repeat: no-repeat;
-    background-size: 25%; 
-    background-attachment: fixed;
-    background-position: left top;   
-}
+    background-size: 15%; 
+    background-attachment: scroll;
+    background-position: left top; 
+    background-color: cornsilk; 
+    }
 
 .container {
-    
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   grid-template-rows: repeat(8, 1fr);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.aboutme {
+    align-self: center;
+    color: blue;
+    justify-content: space-between;
+}
+
+.hobbies {
+    align-self: center;
+    color:blue;
+    justify-content: space-between;
 }
 
 .head {
-    position: absolute;
-    right: 0px;
-    width: 300px;
-    border: 3px solid rgb(48, 14, 201);
-    padding: 10px;
-
+    position:absolute;
+    top:0;
+    right:0;
+    color: blue;
 }
 
 .position {
-    background-color: green;
     text-align: center;
+    color: blue;
     
 
 }
 
-.aboutme, .hobbies  {
-  /* background-color: coral;
-  justify-content: center;
-  display: flex;
-  float: left; */
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  background-position: center;
-  background-color: coral;
-}
-
-/* .hobbies {
-    background-color: brown;
-    background-position: center;
-} */
-
 .footer {
-    /* display: flex; */
     position : absolute;
     bottom : 0;
     height : 40px;
@@ -55,15 +52,4 @@ body{
 
 }
 
-h1 {
-    
-    float: right;
-}
 
-p {
-    background-color: blueviolet;
-}
-
-h2 {
-    background-color: aqua;
-}
