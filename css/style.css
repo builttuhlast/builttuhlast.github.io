@@ -1,55 +1,70 @@
-/* <style>
-@media(min-width:768px){
-    
-} */
-
-body{
-    background:url("../images/bkimage.jpg"); 
-    background-repeat: no-repeat;
-    background-size: 15%; 
-    background-attachment: scroll;
-    background-position: left top; 
-    background-color: cornsilk; 
-    }
-
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
-
-.aboutme {
-    align-self: center;
-    color: blue;
-    justify-content: space-between;
-}
-
-.hobbies {
-    align-self: center;
-    color:blue;
-    justify-content: space-between;
-}
-
-.head {
-    position:absolute;
-    top:0;
-    right:0;
-    color: blue;
-}
-
-.position {
+* {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  header {
+      /* Layout declrations */
+      padding: 96px 0;
+      /* Appearance declrations */
+      background-image: url('https://cdn.glitch.com/9f1ddbd0-82b9-410a-a0aa-9be0adfe31e4%2Fdaytime-flow-h2o-1295138.jpg?v=1563377023476');
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-top: solid 16px #423f4f;
+  }
+  
+  h1.position{
+    color: maroon;
     text-align: center;
-    color: blue;
-    
+  }
+  
+  h1.greeting {
+    /* Layout declarations */
+    text-align: center;
+    /* Appearance declarations */
+    color: maroon;
+      font-family: "Open Sans", "Helvetica Neue", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 96px;
+      letter-spacing: 0px;
+      text-shadow: 0px 0px 8px #423f4f;
+  }
+  
+  
+  h2.aboutme {
+    color: maroon;
+    text-align: center;
+  }
+  
+  /* h2.exp {
+    color: maroon;
+  } */
+  
+  h2.skills1{
+    color: maroon;
+  }
+  
+  h2.skills2{
+    color: maroon;
+  }
+  
+  h2.skills3{
+    color: maroon;
+  }
+  
+  
+  h3.networks {
+    color: maroon;
+  }
+  
+  li.list{
+    color: maroon;
+  }
+  
+  h4.foot {
+    color: maroon;
+    text-align: center;
+  }
 
-}
-
-.footer {
-    position : absolute;
-    bottom : 0;
-    height : 40px;
-    margin-top : 40px;
-
-}
-
-
+  /* background:url("../images/bkimage.jpg"); 
+    background-position: top right; */
