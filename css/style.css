@@ -3,14 +3,18 @@
   }
   
   header {
-      /* Layout declrations */
+      /* Layout declarations */
       padding: 96px 0;
-      /* Appearance declrations */
+      /* Appearance declarations */
       background-image: url('https://cdn.glitch.com/9f1ddbd0-82b9-410a-a0aa-9be0adfe31e4%2Fdaytime-flow-h2o-1295138.jpg?v=1563377023476');
       background-repeat: no-repeat;
       background-size: cover;
       border-top: solid 16px #423f4f;
+      /*round corners of image*/
+      border-radius: 25px;  
   }
+
+  
   
   h1.position{
     color: maroon;
